@@ -26,10 +26,12 @@ in future versions, but for now it is useful for our needs.
 
 Usage:
 To convert from a canonically MAC OS Pre-9 style Cr line ending to Unix style.
-from-cr <InputFile >TempFile
+
+  from-cr \<InputFile \>TempFile
 
 To convert from a unix style Lf line ending to the Cr line ending.
-to-cr <InputFile >TempFile
+
+  to-cr \<InputFile \>TempFile
 
 It is not recommended to use this tool as is in production systems,
 as the format for its use is likely to change wildly as I improve it.
